@@ -13,4 +13,4 @@ export function citationAleatoire() {
 }
 
 
-module.exports = citationAleatoire;
+
