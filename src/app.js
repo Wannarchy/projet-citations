@@ -7,10 +7,10 @@ const citations = [
 ];
 
 
-function citationAleatoire() {
+export function citationAleatoire() {
   const index = Math.floor(Math.random() * citations.length);
   return citations[index];
 }
 
-// Export du module
+
 module.exports = citationAleatoire;
